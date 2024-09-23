@@ -1,0 +1,22 @@
+.back-button {
+  width: calc((100% / 3) - 8px);
+  padding: 15px;
+  margin: 15px;
+  background-color: #f9b234;
+  color: #121212;
+  border: none;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  border-radius: 3px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+      
+.back-button:not([disabled]):hover {
+  box-shadow: 0 1px 9px rgba(0, 0, 0, 0.2);
+}
+      
+.back-button[disabled] {
+  background-color: #eaeaea !important;
+}
