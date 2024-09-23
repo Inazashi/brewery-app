@@ -86,7 +86,7 @@ This is a global context provider responsible for managing the state of favorite
 ### Installation
 
 1. Clone the repository:
-git clone <repository-url>
+git clone https://github.com/Inazashi/brewery-app.git
 
 2. Navigate to the project directory:
 cd brewery-app
